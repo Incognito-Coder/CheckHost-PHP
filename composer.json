@@ -10,7 +10,8 @@
             "Ahmand\\CheckHost\\": "src/"
         },
         "files": [
-            "src/API.php"
+            "src/CheckHost.php",
+            "src/Uri.php"
         ]
     },
     "authors": [
