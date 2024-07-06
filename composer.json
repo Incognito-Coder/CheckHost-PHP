@@ -1,0 +1,22 @@
+{
+    "name": "ahmand/check-host",
+    "description": "Check-Host.net API wrapper for php",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^7.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ahmand\\CheckHost\\": "src/"
+        },
+        "files": [
+            "src/API.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Alireza Ahmand",
+            "email": "mr.alireza.ahmand@gmail.com"
+        }
+    ]
+}
