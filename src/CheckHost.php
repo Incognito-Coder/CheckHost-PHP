@@ -39,7 +39,7 @@ class CheckHost
         $this->request_id = json_decode($Request->getBody())->request_id;
         return $Request->getBody();
     }
-    public function Nodes($type)
+    public function Nodes($type=null)
     {
         switch ($type) {
             case 'ip':
